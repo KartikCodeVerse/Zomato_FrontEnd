@@ -1,0 +1,125 @@
+.banner {
+  display: flex;
+  margin: 90px 0;
+  padding: 40px 0;
+  justify-content: center;
+  background-color: rgb(225, 248, 248);
+}
+
+.contact {
+  display: flex;
+  width: 967px;
+  overflow: hidden;
+}
+
+.contact img {
+  width: 350px;
+  height: 450px;
+  padding-right: 40px;
+}
+
+.address {
+  width: 567px;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+.address p {
+  margin: 15px 0;
+  padding-bottom: 5px;
+  font-size: 0.95rem;
+  color: rgb(92, 91, 91);
+}
+
+.address h2 {
+  font-size: 2.7rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 343px;
+  padding-bottom: 20px;
+}
+
+.radio label {
+  font-size: 1.1rem;
+  color: rgb(49, 49, 49);
+}
+
+.radio [type="radio"] {
+  accent-color: rgb(255, 92, 92);
+}
+
+.email input {
+  height: 46px;
+  border-radius: 5px;
+  width: 270px;
+  border: 1px solid rgb(184, 183, 183);
+  outline: rgb(255, 92, 92);
+  font-size: 1.3rem;
+  padding-left: 15px;
+}
+
+/* .place {
+    position: absolute;
+    font-size: 1.3rem;
+    left: 15px;
+    top: 13px;
+    color: gray;
+    font-weight: lighter;
+  } */
+.email button {
+  width: 150px;
+  border-radius: 6px;
+  border: 1px solid rgb(253, 104, 104);
+  background-color: rgb(253, 104, 104);
+  font-size: 1.1rem;
+  margin-left: 6px;
+  color: white;
+}
+
+.app img {
+  width: 137px;
+  height: 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .banner {
+    margin: 30px 0;
+  }
+  .contact img {
+    width: 199px;
+    height: 250px;
+  }
+  .contact {
+    align-items: center;
+    flex-direction: column;
+  }
+  .address {
+    width: 360px;
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+  .address h2 {
+    font-size: 34px;
+  }
+  .radio {
+    margin-right: 134px;
+  }
+  .email {
+    display: flex;
+    width: 348px;
+  }
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .app img {
+    width: 113px;
+    height: 56px;
+  }
+}

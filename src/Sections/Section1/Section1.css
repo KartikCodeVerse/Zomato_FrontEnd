@@ -1,0 +1,29 @@
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13vh;
+}
+.search i {
+  color: gray;
+  padding-left: 10px;
+}
+
+.sec-1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13vh;
+}
+
+@media screen and (max-width: 700px) {
+  .sec-1 {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8vh;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .sec-1 {
+    margin-bottom: 8vh;
+  }
+}

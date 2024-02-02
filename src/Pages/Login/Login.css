@@ -1,0 +1,37 @@
+/* Login.css */
+.login {
+  background-color: rgb(78 69 69);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  background-color: rgb(178, 158, 158);
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user,
+.pw {
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: rgb(172, 111, 111);
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: rgb(97, 78, 78);
+}
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

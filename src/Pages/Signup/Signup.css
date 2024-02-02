@@ -1,0 +1,22 @@
+.signup {
+  background-color: rgb(78 69 69);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-container {
+  background-color: rgb(178, 158, 158);
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user,
+.em .pw {
+  margin: 20px 0;
+}

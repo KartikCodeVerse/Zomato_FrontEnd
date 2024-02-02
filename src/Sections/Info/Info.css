@@ -1,0 +1,57 @@
+.info {
+  margin: 60px 150px;
+}
+
+.sec-6 {
+  margin-bottom: 110px;
+}
+
+.sec-6 h1 {
+  font-size: 1.9rem;
+  margin-bottom: 25px;
+  font-weight: lighter;
+  color: rgb(31, 31, 31);
+}
+
+.sec-6 h4 {
+  font-size: 1.4rem;
+  margin-bottom: 25px;
+  font-weight: lighter;
+  color: rgb(31, 31, 31);
+}
+
+.sec-6 a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.95rem;
+}
+
+.sec-6 i {
+  font-size: 0.3rem;
+  padding: 6px 5px;
+  color: gray;
+}
+
+.end-column a {
+  width: 257.68px;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: lighter;
+  margin: 15px 0px;
+}
+
+#more {
+  width: 97.11px;
+  font-weight: 500;
+  border-bottom: 1.5px solid rgb(28, 28, 28);
+  padding-bottom: 0.5rem;
+  line-height: 1.8;
+  color: rgb(28, 28, 28);
+}
+
+@media screen and (max-width: 900px) {
+  .info {
+    margin: 10px 20px;
+  }
+}
